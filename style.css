@@ -1,11 +1,23 @@
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 20px 40px;
+    margin: 0;
 }
 
-section {
+footer {
+    font-family: 'Poppins', sans-serif;
+}
+
+.flexble-container {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    padding: 50px;
+
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    /* margin-left: 0%; */
 }
 
 h1 {
@@ -17,8 +29,11 @@ h1 {
 }
 
 .half-width {
+
     width: 50%;
     padding-left: 2%;
+    padding-right: 50px;
+
 }
 
 .half-width img {
@@ -34,19 +49,41 @@ h1 {
     border-radius: 5px;
 }
 
-
-.third-section-width-1 {
-    margin-right: 20PX;
-    background-color: bisque;
-    padding-left: 20PX;
-    width: 100%;
-    border-left: 5px solid orange;
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
-.third-section-width-2 {
-    margin-right: 20PX;
-    background-color: bisque;
-    padding-left: 20PX;
-    width: 100%;
-    border-left: 5px solid blue;
+.dream-big-2 {
+    padding-right: 80px;
+}
+
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 10PX;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+
+}
+
+#full-stack-developer {
+    border-left: 7px solid orange;
+}
+
+#baby-web-developer {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
